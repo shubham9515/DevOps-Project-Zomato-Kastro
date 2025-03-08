@@ -78,6 +78,7 @@ Make sure to Login to DockerHub account in browser
 
 9. Install SonarQube using Docker
 $ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+$ docker run -d -p 8081:8081 --name nexus sonatype/nexus3
 $ docker ps (You can see SonarQube container)
 
 <Follow the process as explained in the video>
